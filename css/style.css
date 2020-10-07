@@ -1,0 +1,136 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #d3dae0;
+  text-transform: uppercase;
+}
+.bg {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.main-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1120px;
+  height: 1100px;
+}
+.main-box > div {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #818181;
+  margin-left: 20px;
+}
+.text {
+  font-size: 18pt;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 0;
+}
+#dateCar {
+  color: #c9c9c9;
+  opacity: 0.8;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+#article {
+  color: white;
+  font-size: 26pt;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+#text-without-date {
+  margin-top: 76.6667px;
+}
+.main-box > div:nth-child(1) {
+  width: 40em;
+  height: 34em;
+  background-image: url(../img/Car.png);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main-box > div:nth-child(2) {
+  width: 20em;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.main-box > div:nth-child(3) {
+  width: 20em;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.main-box > div:nth-child(4) {
+  width: 20em;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.main-box > div:nth-child(5) {
+  width: 20em;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+img [alt="girl"] {
+  display: block;
+  width: 360px;
+  height: 251px;
+}
+img [alt="girls"] {
+  display: block;
+  width: 360px;
+  height: 251px;
+}
+img [alt="Shoes"] {
+  display: block;
+  width: 360px;
+  height: 251px;
+}
+img [alt="Car and bench"] {
+  display: block;
+  width: 360px;
+  height: 251px;
+}
+img[alt="author"] {
+  display: flex;
+  width: 54px;
+  height: 54px;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+  margin-bottom: 60px;
+  color: #686868;
+}
+.main-box:hover div {
+  opacity: 0.5;
+  transition: all 0.2s ease-in;
+}
+.main-box div:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+}
+.main-box div:active {
+  opacity: 1;
+  color: #00fc22;
+}
+#box-car:active #article {
+  opacity: 1;
+  color: #00fc22;
+}
