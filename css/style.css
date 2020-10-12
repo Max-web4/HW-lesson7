@@ -50,8 +50,7 @@ body {
   margin-top: 76.6667px;
 }
 .main-box > div:nth-child(1) {
-  width: 40em;
-  height: 34em;
+  flex-grow: 0.54;
   background-image: url(../img/Car.png);
   margin-bottom: 10px;
   margin-right: 10px;
@@ -62,7 +61,7 @@ body {
   width: 20em;
   background-color: rgb(255, 255, 255);
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .main-box > div:nth-child(3) {
   width: 20em;
